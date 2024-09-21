@@ -12,7 +12,7 @@ class Student {
   static studID = 0;
 
   static getAllStudents() {
-    return this.#allStudents;
+    return Student.#allStudents;
   }
   getStudentID() {
     return this.#studentID;
